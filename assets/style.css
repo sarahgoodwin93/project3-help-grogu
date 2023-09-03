@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: url('../workspaces/help-grogu/assets/images/background.png') no-repeat center center;
+    background-size: cover;
+}
