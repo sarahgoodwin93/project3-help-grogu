@@ -14,7 +14,14 @@ def intro_text():
     print(images.logo_img)
     print(images.welcome_message)
     username = input("What is your name?\n")
-    print(f"Welcome {username}, let's begin")
+    while True:
+        username = input("")
+        if not username.isalpha():
+            print("Sorry, please use letters we can understand")
+            continue
+        else:
+            print(f"Welcome {username}, let's begin")
+            continue
 
 
 def first_challenge():
@@ -71,7 +78,7 @@ def third_challenge():
     print("Do you...")
     print("A) Try to win a ship in a card game with sketchy gamblers at the local drinking spot?")
     print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
-    print("C) Get Grogu to steal someone's keys using the force")
+    print("C) Get Grogu to steal their keys using the force")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
         print("")
