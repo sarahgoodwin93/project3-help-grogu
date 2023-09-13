@@ -16,13 +16,16 @@ def intro_text():
     print("Can you help Grogu find his way back to Din Djarin?")
     print(images.logo_img)
     print(images.welcome_message)
-    username = input("What is your name?\n")
+    print("What is your name?\n")
+    username = ""
     while True:
         username = input("")
         if not username.isalpha():
             print("Sorry, please use letters we can understand")
+            continue
         else:
             print(f"Welcome {username}, let's begin")
+            first_challenge()
 
 
 def first_challenge():
@@ -42,11 +45,14 @@ def first_challenge():
     print("C) Get Grogu to steal someone's keys using the force")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
-        print("")
+        print("You lose the game and now owe all the gamblers a drink!")
+        end_game()
     elif user_choice == "B":
-        print("")
+        print("You get found and chucked off the ship!")
+        end_game()
     elif user_choice == "C":
-        print("")
+        print("Grogu gets the keys and you find the ship, time to get going!")
+        second_challenge()
     else:
         print("You must choice A, B or C")
 
@@ -164,6 +170,21 @@ def sixth_challenge():
         print("")
     else:
         print("You must choice A, B or C")
+
+
+def end_game()
+    """
+    Ends the game and asks if the user wants to play again
+    """
+    print("Do you want to play again? y/n \n")
+    user_input = str(input("").lower())
+    if user_input == "y":
+        intro_text()
+    elif user_input = "n":
+        print("Thanks for helping Grogu try to get Mando back!")
+        quit()
+    else:
+        print("You must choose yes or no")
 
 
 def main():
