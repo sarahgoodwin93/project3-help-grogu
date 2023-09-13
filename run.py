@@ -75,6 +75,7 @@ def second_challenge():
             "Peli Motto answers your call! She tells" +
             "you how to fix the ship and off you go"
             )
+        third_challenge()
     elif user_choice == "B":
         print(
             "Grogu drops the spanner down a shoot" +
@@ -86,6 +87,7 @@ def second_challenge():
             "You head back to town and the gamblers" +
             "find you again and take grogu for yet another drink!"
         )
+        end_game()
     else:
         print("You must choice A, B or C")
 
@@ -96,19 +98,29 @@ def third_challenge():
     allows user to choose where the game will go
     """
     user_choice = ""
-    print("Get to planet and go to salon to find more infomation")
-    print("Moth Giden trops have been spotted on the other side of the planet")
+    print("Your ships just makes it to planet, although still falling apart")
+    print("You head into the local Salon to find some more information")
+    print(
+        "Moth Giden troops have been spotted" +
+        "on the other side of the planet"
+    )
     print("Do you...")
-    print("A) Get speedster")
-    print("B) Get back on ship and try to fly")
-    print("C) Get distracted by eggs")
+    print("A) Get a speedster to get over there quick before they get away!")
+    print("B) Get back on the ship and try to fly it across")
+    print("C) Try to find our more info from the locals")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
-        print("")
+        print("You've made it, but they are no where to be seen!")
     elif user_choice == "B":
-        print("")
+        print(
+            "AND CRASH. Sorry your ship is broken and it" +
+            "will be a while before you can get it going again"
+        )
+        end_game()
     elif user_choice == "C":
-        print("")
+        print("Grogu has been distracted by some eggs...")
+        print(images.grogu)
+        end_game()
     else:
         print("You must choice A, B or C")
 
@@ -190,7 +202,7 @@ def end_game():
     user_input = str(input("").lower())
     if user_input == "y":
         intro_text()
-    elif user_input = "n":
+    elif user_input == "n":
         print("Thanks for helping Grogu try to get Mando back!")
         quit()
     else:

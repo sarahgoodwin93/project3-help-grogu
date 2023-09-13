@@ -24,11 +24,11 @@ logo_img = (r"""
 welcome_message = (r"""
 .   .   .   .   A long time ago in a galaxy far, far away….        .     .
 .       . .   A group of Mandalorians were attacked by a small             .
-.           force of Galactic Empire remnants, still loyal to the                   .        .
+.           force of Galactic Empire remnants, still loyal to the        .
 .   .     Imperial  ways. Mando (Din Djarin) has been taken and    .      .
 .   .    Grogu needs  your help to find him and bring him back home.
 .   .  Follow the prompts to help get Mando & his fellow Mandalorians
-.     back from the evil Galactic Empire, and get Grogu back to safety.        .  .
+.     back from the evil Galactic Empire, and get Grogu back to safety.   .
 .         . .           .        .                     .        .            .
 """)
 
@@ -52,5 +52,4 @@ grogu = (r"""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⡿⠟⠋⠀⠀⠀⣿⠀⠀⣸⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣁⣀⠀⠀⠀⠀⣿⡀⠀⣿⠀⠀⠀⠀⠀⠀⢀⣈⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠟⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
 """)
