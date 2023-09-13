@@ -67,15 +67,25 @@ def second_challenge():
     print("But the ship doesnt start")
     print("Do you...")
     print("A) Call the mechanic")
-    print("B) Try to fix it yours")
-    print("C) Get different ship")
+    print("B) Try to fix it yourselves")
+    print("C) Head back into town to try to get different ship")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
-        print("")
+        print(
+            "Peli Motto answers your call! She tells" +
+            "you how to fix the ship and off you go"
+            )
     elif user_choice == "B":
-        print("")
+        print(
+            "Grogu drops the spanner down a shoot" +
+            "and you can't fix the ship"
+            )
+        end_game()
     elif user_choice == "C":
-        print("")
+        print(
+            "You head back to town and the gamblers" +
+            "find you again and take grogu for yet another drink!"
+        )
     else:
         print("You must choice A, B or C")
 
