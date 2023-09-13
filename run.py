@@ -182,7 +182,7 @@ def sixth_challenge():
         print("You must choice A, B or C")
 
 
-def end_game()
+def end_game():
     """
     Ends the game and asks if the user wants to play again
     """
