@@ -31,7 +31,7 @@ def intro_text():
             )
             continue
         else:
-            print(f"Welcome {username}, let's begin")
+            print(f"Welcome {username}, let's begin!")
             first_challenge()
 
 
@@ -49,7 +49,10 @@ def first_challenge():
             "A) Try to win a ship in a card game with sketchy " +
             "gamblers at the local drinking spot?"
             )
-        print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
+        print(
+            "B) Try to sneak onboard a ship leaving " +
+            "the shipyard as stowaways?"
+            )
         print("C) Get Grogu to steal someone's keys using the force")
         user_choice = str(input("What do you deciede A,B or C? \n"))
         if user_choice == "A" or user_choice == "a":
@@ -61,11 +64,15 @@ def first_challenge():
             end_game()
             break
         elif user_choice == "C" or user_choice == "c":
-            print("Grogu gets the keys and you find the ship, time to get going!")
+            print(
+                "Grogu gets the keys and you find the ship, " +
+                "time to get going!"
+                )
             second_challenge()
             break
         else:
             print("You must choose A, B, or C")
+            print("............LET'S TRY THAT AGAIN............")
 
 
 def second_challenge():
@@ -102,6 +109,7 @@ def second_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
+            print("............LET'S TRY THAT AGAIN............")
 
 
 def third_challenge():
@@ -111,14 +119,17 @@ def third_challenge():
     """
     while True:
         user_choice = ""
-        print("Your ships just makes it to planet, although still falling apart")
+        print(
+            "Your ships just makes it to planet, " +
+            "although still falling apart"
+            )
         print("You head into the local Salon to find some more information")
         print(
             "Moth Giden troops have been spotted " +
             "on the other side of the planet"
         )
         print("Do you...")
-        print("A) Get a speedster to get over there quick before they get away!")
+        print("A) Get a speedster to get there quick before they get away!")
         print("B) Get back on the ship and try to fly it across")
         print("C) Try to find our more info from the locals")
         user_choice = str(input("What do you deciede A,B or C? \n"))
@@ -136,6 +147,7 @@ def third_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
+            print("............LET'S TRY THAT AGAIN............")
 
 
 def fourth_challenge():
@@ -169,6 +181,7 @@ def fourth_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
+            print("............LET'S TRY THAT AGAIN............")
 
 
 def fifth_challenge():
@@ -202,6 +215,7 @@ def fifth_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
+            print("............LET'S TRY THAT AGAIN............")
 
 
 def end_game():
@@ -221,6 +235,7 @@ def end_game():
         quit()
     else:
         print("You must choose yes or no")
+        print("............LET'S TRY THAT AGAIN............")
 
 
 def win_game():
@@ -237,6 +252,7 @@ def win_game():
         quit()
     else:
         print("You must choose yes or no")
+        print("............LET'S TRY THAT AGAIN............")
 
 
 def main():
