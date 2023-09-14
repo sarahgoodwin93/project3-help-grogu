@@ -1,4 +1,4 @@
-# [Help Grogu](https:// "")
+# [Help Grogu](https://help-grogu-5d7736926f92.herokuapp.com/ "take you to help grogu program")
 
 Help Grogu is a game …
 
@@ -50,21 +50,21 @@ Help Grogu is a game …
 
 ## Target Audience
 
-The target audience for this website is
+The target audience for this website is for any and all star wars fans (but not limited to) who want to have a fun time with this choose your own adventure game. 
 
 ## User Stories
 
-### User 1
+### First Time Visitor
 
-1. 
+1. As a first time visitor I want to easily understand the purpose of the game
+2. As a first time visitor I want to have fun playing the game
+3. As a first time visitor I want to feel like I can come back and play again!
 
-### User 2
+### Returning Visitor
 
-1. 
-
-### User 3
-
-1.
+1. As a returning user I want to get further in the game than I did on my last go
+2. As a returning user I want to see different outcomes depending on the option I choose
+3. As a returning user I want to see new questions added so the game continues 
 
 # Design
 
