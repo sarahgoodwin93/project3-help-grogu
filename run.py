@@ -21,7 +21,10 @@ def intro_text():
     while True:
         username = input("")
         if not username.isalpha():
-            print("Sorry, please use letters we can understand")
+            print(
+                "Sorry, we don't know that language, please" +
+                "use some letters we can understand"
+            )
             continue
         else:
             print(f"Welcome {username}, let's begin")
@@ -38,7 +41,7 @@ def first_challenge():
     print("But you need a ship to be able to catch up to him")
     print("Do you...")
     print(
-        "A) Try to win a ship in a card game with sketchy" +
+        "A) Try to win a ship in a card game with sketchy " +
         "gamblers at the local drinking spot?"
         )
     print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
@@ -72,7 +75,7 @@ def second_challenge():
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
         print(
-            "Peli Motto answers your call! She tells" +
+            "Peli Motto answers your call! She tells " +
             "you how to fix the ship and off you go"
             )
         third_challenge()
@@ -84,7 +87,7 @@ def second_challenge():
         end_game()
     elif user_choice == "C":
         print(
-            "You head back to town and the gamblers" +
+            "You head back to town and the gamblers " +
             "find you again and take grogu for yet another drink!"
         )
         end_game()
@@ -94,14 +97,14 @@ def second_challenge():
 
 def third_challenge():
     """
-    Outline the second options of the game and
+    Outline the third options of the game and
     allows user to choose where the game will go
     """
     user_choice = ""
     print("Your ships just makes it to planet, although still falling apart")
     print("You head into the local Salon to find some more information")
     print(
-        "Moth Giden troops have been spotted" +
+        "Moth Giden troops have been spotted " +
         "on the other side of the planet"
     )
     print("Do you...")
@@ -113,7 +116,7 @@ def third_challenge():
         print("You've made it, but they are no where to be seen!")
     elif user_choice == "B":
         print(
-            "AND CRASH. Sorry your ship is broken and it" +
+            "AND CRASH. Sorry your ship is broken and it " +
             "will be a while before you can get it going again"
         )
         end_game()
@@ -127,53 +130,39 @@ def third_challenge():
 
 def fourth_challenge():
     """
-    Outline the second options of the game and
+    Outline the fourth options of the game and
     allows user to choose where the game will go
     """
     user_choice = ""
-    print("Get to planet and go to salon to find more infomation")
-    print("Moth Giden trops have been spotted on the other side of the planet")
+    print("You get to other side of planet and they are not to be seen")
+    print("But you find Mandos helmet")
     print("Do you...")
-    print("A) Get speedster")
-    print("B) Get back on ship and try to fly")
-    print("C) Get distracted by eggs")
+    print("A) Use the force to try to locate him")
+    print("B) Cry and go home")
+    print("C) Go and get the Mandalorian covenant to try to help")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
-        print("")
+        print(
+            "Grogu has found him! He is located " +
+            "in a secret hideout a few clicks away!"
+        )
+        fifth_challenge()
     elif user_choice == "B":
-        print("")
+        print("You go home and Mando is lost forever")
+        end_game()
     elif user_choice == "C":
-        print("")
+        print(
+            "You get back to your ship to contact the " +
+            "conenant but who knows when they'll get here!"
+            )
+        end_game()
     else:
         print("You must choice A, B or C")
 
 
 def fifth_challenge():
     """
-    Outline the second options of the game and
-    allows user to choose where the game will go
-    """
-    user_choice = ""
-    print("Get to other side of planet and they are not to be seen")
-    print("But you find Mandos helmet")
-    print("Do you...")
-    print("A) Use the force to try to locate him")
-    print("B) Cry and go home")
-    print("C) Go and get the covenant to help")
-    user_choice = str(input("What do you deciede A,B or C? \n"))
-    if user_choice == "A":
-        print("")
-    elif user_choice == "B":
-        print("")
-    elif user_choice == "C":
-        print("")
-    else:
-        print("You must choice A, B or C")
-
-
-def sixth_challenge():
-    """
-    Outline the second options of the game and
+    Outline the fifth options of the game and
     allows user to choose where the game will go
     """
     user_choice = ""
@@ -181,15 +170,24 @@ def sixth_challenge():
     print("Taking your speedster to go to where they are hiding")
     print("Do you...")
     print("A) Break in and resuce him")
-    print("B) Wait until he is transported out to attack then")
-    print("C) Wait for help from the covenant")
+    print("B) Wait until he is transported out to attack their ships then")
+    print("C) Wait for help")
     user_choice = str(input("What do you deciede A,B or C? \n"))
     if user_choice == "A":
-        print("")
+        print(
+            "You've got him!! Well done for rescuing Mando!" +
+            "You can now go and enjoy more adventures together!"
+            )
+        win_game()
     elif user_choice == "B":
-        print("")
+        print(
+            "You wait, and wait and they dont come back, you" +
+            "deciede to go get help and miss their ship departing..."
+            )
+        end_game()
     elif user_choice == "C":
-        print("")
+        print("Looks like no one is coming and Moth Giden got away!")
+        end_game()
     else:
         print("You must choice A, B or C")
 
@@ -203,7 +201,25 @@ def end_game():
     if user_input == "y":
         intro_text()
     elif user_input == "n":
-        print("Thanks for helping Grogu try to get Mando back!")
+        print(
+            "Thanks for helping Grogu try to get Mando back!" +
+            "Better luck next time!"
+            )
+        quit()
+    else:
+        print("You must choose yes or no")
+
+
+def win_game():
+    """
+    Message to be displayed if they win the game
+    """
+    print("Do you want to play again? y/n \n")
+    user_input = str(input("").lower())
+    if user_input == "y":
+        intro_text()
+    elif user_input == "n":
+        print("Thanks for helping Grogu rescue his best pal!!")
         quit()
     else:
         print("You must choose yes or no")
@@ -214,9 +230,6 @@ def main():
     Main functions in order
     """
     intro_text()
-    first_challenge()
-    second_challenge()
-    third_challenge()
 
 
 main()
