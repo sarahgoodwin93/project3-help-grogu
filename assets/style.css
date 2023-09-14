@@ -8,3 +8,28 @@ body {
     background: url(https://i.ibb.co/sWFPcRs/Untitled-design.png);
     background-size: cover;
 }
+
+/* button */
+button {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 200px;
+    height: 40px;
+    background-color: #02496d;
+    border: 1px solid grey;
+    color: gold;
+    text-transform: uppercase;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* terminal */
+/* Code for terminal taken from */
+#terminal {
+    z-index: +1;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

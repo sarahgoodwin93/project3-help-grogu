@@ -70,16 +70,12 @@ The target audience for this website is for any and all star wars fans (but not 
 
 ## Colour Scheme
 
-![Hex Colours]( ")
+The colour scheme was chosen to represent outer space.
+#02496d was chosen for the button to match the background going into hyperspace
 
 ## Flow Chart
 
 ![FlowChart]( "")
-
-## Typography
-
-
-Sans-Serif has been applied as a back-up in case of import failure.
 
 [Back to Top](#help-grogu)
 
