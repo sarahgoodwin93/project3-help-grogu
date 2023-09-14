@@ -23,7 +23,7 @@ def intro_text():
     print(images.welcome_message)
     print("What is your name?\n")
     while True:
-        username = input("")
+        username = str(input("").lower())
         if not username.isalpha():
             print(
                 "Sorry, we don't know that language, please " +
@@ -40,7 +40,7 @@ def first_challenge():
     Outlined the first options of the game
     and allows user to choose where the game will go
     """
-    user_choice = ""
+    user_choice = str(input("").lower())
     print("You discover that Mando might be on Moth Gideons light cruiser")
     print("But you need a ship to be able to catch up to him")
     print("Do you...")
@@ -203,7 +203,7 @@ def end_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        print("Welcome back {username}, lets try again!!")
+        print(f"Welcome back {username}, lets try again!!")
     elif user_input == "n":
         print(
             "Thanks for helping Grogu try to get Mando back!" +
@@ -221,7 +221,7 @@ def win_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        print("Welcome back {username}, lets go again!!")
+        print(f"Welcome back {username}, lets go again!!")
         first_challenge()
     elif user_input == "n":
         print("Thanks for helping Grogu rescue his best pal!!")
