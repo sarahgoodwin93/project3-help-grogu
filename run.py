@@ -50,19 +50,19 @@ def first_challenge():
         )
     print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
     print("C) Get Grogu to steal someone's keys using the force")
-    print("What do you deciede A,B or C\n")
-    user_choice = str(input("").lower())
-    if user_choice == "A" or "a":
+    user_choice = str(input("What do you deciede A,B or C? \n"))
+    if user_choice == "A" or user_choice == "a":
         print("You lose the game and now owe all the gamblers a drink!")
         end_game()
-    elif user_choice == "B" or "b":
+    elif user_choice == "B" or user_choice == "b":
         print("You get found and chucked off the ship!")
         end_game()
-    elif user_choice == "C" or "c":
+    elif user_choice == "C" or user_choice == "c":
         print("Grogu gets the keys and you find the ship, time to get going!")
         second_challenge()
     else:
         print("You must choose A, B or C")
+        first_challenge()
 
 
 def second_challenge():
