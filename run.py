@@ -26,7 +26,7 @@ def intro_text():
         username = input("")
         if not username.isalpha():
             print(
-                "Sorry, we don't know that language, please" +
+                "Sorry, we don't know that language, please " +
                 "use some letters we can understand"
             )
             continue
@@ -61,7 +61,7 @@ def first_challenge():
         print("Grogu gets the keys and you find the ship, time to get going!")
         second_challenge()
     else:
-        print("You must choice A, B or C")
+        print("You must choose A, B or C")
 
 
 def second_challenge():
@@ -96,7 +96,7 @@ def second_challenge():
         )
         end_game()
     else:
-        print("You must choice A, B or C")
+        print("You must choose A, B or C")
 
 
 def third_challenge():
@@ -129,7 +129,7 @@ def third_challenge():
         print(images.grogu)
         end_game()
     else:
-        print("You must choice A, B or C")
+        print("You must choose A, B or C")
 
 
 def fourth_challenge():
@@ -161,7 +161,7 @@ def fourth_challenge():
             )
         end_game()
     else:
-        print("You must choice A, B or C")
+        print("You must choose A, B or C")
 
 
 def fifth_challenge():
@@ -193,7 +193,7 @@ def fifth_challenge():
         print("Looks like no one is coming and Moth Giden got away!")
         end_game()
     else:
-        print("You must choice A, B or C")
+        print("You must choose A, B or C")
 
 
 def end_game():
