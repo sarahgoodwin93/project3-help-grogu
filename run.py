@@ -11,6 +11,8 @@ def intro_text():
     """
     Introduction to the game, allows users to input their name
     and explains the story and journey they are about to go on
+    Once the user has input their name correctly, the game will 
+    begin with the first challenge
     """
     print(
         "Welcome to the game that will take you" +

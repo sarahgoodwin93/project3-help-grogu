@@ -174,12 +174,11 @@ Some errors that were found included
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Option A - Try to win a ship in a card game with sketchy gamblers at the local drinking spot? | Pressed A | Message should show "You lose the game and now owe all the gamblers a drink!" and the endgame() is started | Message was shown and endgame() ran | N/A |
+| Option B - Try to sneak onboard a ship leaving the shipyard as stowaways? | Pressed B | Message should show "You get found and chucked off the ship!" and the endgame() is started | Message was shown and endgame() ran | N/A |
+| Option C - Get Grogu to steal someone's keys using the force | Pressed C | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Message was shown and second_challenge began | N/A |
+| Choose any other letter | Pressed D| Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Enter | Pressed enter | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Second Challenge testing comments
 
