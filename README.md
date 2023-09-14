@@ -83,15 +83,11 @@ The colour scheme was chosen to represent outer space.
 
 ## Navigation
 
-## Hero Image / Background Image
+## Background Image
 
-## Landing Page
+## ASCII Images
 
-## Other Pages
-
-## The Footer
-
-![Footer screenshot]( "Screenshot of Footer")
+![ASCII screenshots]( "Screenshot of ASCII")
 
 [Back to Top](#help-grogu)
 
@@ -100,6 +96,7 @@ The colour scheme was chosen to represent outer space.
 ## Manual Testing
 
 Manual testing was carried out on every page and with every link.
+Mobile testing was not carried out. 
 
 #### Laptops
 
@@ -108,12 +105,6 @@ Manual testing was carried out on every page and with every link.
 #### Desktop
 
 - iMac
-
-#### Mobile
-
-- Samsung 22 Ultra (Android)
-- iPhone SE (Apple)
-- iPhone 12 Mini (Apple)
 
 #### Browsers
 
@@ -155,16 +146,13 @@ Manual testing was carried out on every page and with every link.
 
 ### Errors that were found in validator and fixed
 
+Some errors that were found included
+- Trailing whitespace
+- Line too long
+
 ## Lighthouse scores
 
 ![Lighthouse score home](assets/images/readme-images/lighthouse-home.png "Lighthouse score home image")
-
-## Mobile and iPad Testing Comments
-
-| **TEST**                  | **ACTION**                            | **EXPECTATION**                      | **RESULT**          | **FIX**                           |
-| ------------------------- | ------------------------------------- | ------------------------------------ | ------------------- | --------------------------------- |
-| Home page (mobile)        | Samsung 22 Ultra Android              | Elements look good on android        | Works as expected   | N/A                               |
-| Home page (ipad)          | Size to 1024px using Chrome Dev Tools | Elements look good on ipad           | Works as expected   | N/A                               |
 
 ## Nav Bar Testing Comments
 
