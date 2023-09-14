@@ -40,29 +40,32 @@ def first_challenge():
     Outlined the first options of the game
     and allows user to choose where the game will go
     """
-    user_choice = ""
-    print("You discover that Mando might be on Moth Gideons light cruiser")
-    print("But you need a ship to be able to catch up to him")
-    print("Do you...")
-    print(
-        "A) Try to win a ship in a card game with sketchy " +
-        "gamblers at the local drinking spot?"
-        )
-    print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
-    print("C) Get Grogu to steal someone's keys using the force")
-    user_choice = str(input("What do you deciede A,B or C? \n"))
-    if user_choice == "A" or user_choice == "a":
-        print("You lose the game and now owe all the gamblers a drink!")
-        end_game()
-    elif user_choice == "B" or user_choice == "b":
-        print("You get found and chucked off the ship!")
-        end_game()
-    elif user_choice == "C" or user_choice == "c":
-        print("Grogu gets the keys and you find the ship, time to get going!")
-        second_challenge()
-    else:
-        print("You must choose A, B or C")
-        first_challenge()
+    while True:
+        user_choice = ""
+        print("You discover that Mando might be on Moth Gideons light cruiser")
+        print("But you need a ship to be able to catch up to him")
+        print("Do you...")
+        print(
+            "A) Try to win a ship in a card game with sketchy " +
+            "gamblers at the local drinking spot?"
+            )
+        print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
+        print("C) Get Grogu to steal someone's keys using the force")
+        user_choice = str(input("What do you deciede A,B or C? \n"))
+        if user_choice == "a":
+            print("You lose the game and now owe all the gamblers a drink!")
+            end_game()
+            break
+        elif user_choice == "b":
+            print("You get found and chucked off the ship!")
+            end_game()
+            break
+        elif user_choice == "c":
+            print("Grogu gets the keys and you find the ship, time to get going!")
+            second_challenge()
+            break
+        else:
+            print("You must choose A, B, or C")
 
 
 def second_challenge():
