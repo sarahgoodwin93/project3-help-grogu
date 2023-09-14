@@ -154,22 +154,104 @@ Some errors that were found included
 
 ![Lighthouse score home](assets/images/readme-images/lighthouse-home.png "Lighthouse score home image")
 
-## Nav Bar Testing Comments
+[Back to Top](#help-grogu)
+
+## Run Game Testing Comments
 
 | **TEST**                  | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
 | ------------------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
-| Run Program - home        | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Run Program Button | Click run program button | Game begins | Works as expected | N/A     |
 
-## Other Testing Comments
+## What is your name testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Footer            | Clicked on linkedin button    | Took me to Sarah Goodwin linkedin profile | Worked as expected | N/A     |
-| Footer            | Clicked on Github button      | Took me to Sarah Goodwin github page      | Worked as expected | N/A     |
-| Start Game button | Clicked on button             |             | Worked as expected | N/A     |
+| What is your name | Typed letters to spell name | Name accepted and game continues | Worked as expected | N/A |
+| What is your name | Typed numbers as name | Error message should appear "Sorry, we don't know that language, pleaseuse some letters we can understand" | Worked as expected | N/A |
+| What is your name | Pressed Enter for name | Error message should appear "Sorry, we don't know that language, pleaseuse some letters we can understand" | Worked as expected | N/A |
+
+## First Challenge testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## Second Challenge testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## Third Challenge testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## Fourth Challenge testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## Sixth Challenge testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## End Game testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+
+## Win Game testing comments
+
+| **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
+| ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
+|  |  |  | Worked as expected | N/A |
 
 ## Unfixed Bugs
 
+No bugs were let to fix. 
+
+[Back to Top](#help-grogu)
 
 # Deployment
 
