@@ -117,7 +117,7 @@ Mobile testing was not carried out.
 ### W3 - HTML validator
 
 <details>
-<summary>HTML - Please see screenshots for each page</summary>
+<summary>HTML</summary>
 <details>
 <summary>Landing Page</summary>
 
@@ -158,7 +158,7 @@ Some errors that were found included
 
 | **TEST**                  | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
 | ------------------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
-| Nav Buttons - home        | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
+| Run Program - home        | Click nav buttons | That each nav element takes me to the correct page on site | Works as expected | N/A     |
 
 ## Other Testing Comments
 
