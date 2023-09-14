@@ -217,7 +217,7 @@ def win_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        intro_text()
+        first_challenge()
     elif user_input == "n":
         print("Thanks for helping Grogu rescue his best pal!!")
         quit()
