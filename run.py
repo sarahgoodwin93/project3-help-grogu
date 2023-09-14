@@ -11,7 +11,7 @@ def intro_text():
     """
     Introduction to the game, allows users to input their name
     and explains the story and journey they are about to go on
-    Once the user has input their name correctly, the game will 
+    Once the user has input their name correctly, the game will
     begin with the first challenge
     """
     print(
@@ -23,7 +23,7 @@ def intro_text():
     print(images.welcome_message)
     print("What is your name?\n")
     while True:
-        username = str(input("").lower())
+        username = input("")
         if not username.isalpha():
             print(
                 "Sorry, we don't know that language, please " +
@@ -40,7 +40,7 @@ def first_challenge():
     Outlined the first options of the game
     and allows user to choose where the game will go
     """
-    user_choice = str(input("").lower())
+    user_choice = ""
     print("You discover that Mando might be on Moth Gideons light cruiser")
     print("But you need a ship to be able to catch up to him")
     print("Do you...")
@@ -50,14 +50,15 @@ def first_challenge():
         )
     print("B) Try to sneak onboard a ship leaving the shipyard as stowaways?")
     print("C) Get Grogu to steal someone's keys using the force")
-    user_choice = str(input("What do you deciede A,B or C? \n"))
-    if user_choice == "A":
+    print("What do you deciede A,B or C\n")
+    user_choice = str(input("").lower())
+    if user_choice == "A" or "a":
         print("You lose the game and now owe all the gamblers a drink!")
         end_game()
-    elif user_choice == "B":
+    elif user_choice == "B" or "b":
         print("You get found and chucked off the ship!")
         end_game()
-    elif user_choice == "C":
+    elif user_choice == "C" or "c":
         print("Grogu gets the keys and you find the ship, time to get going!")
         second_challenge()
     else:
@@ -204,6 +205,7 @@ def end_game():
     user_input = str(input("").lower())
     if user_input == "y":
         print(f"Welcome back {username}, lets try again!!")
+        intro_text()
     elif user_input == "n":
         print(
             "Thanks for helping Grogu try to get Mando back!" +
