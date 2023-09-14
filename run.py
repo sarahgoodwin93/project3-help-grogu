@@ -2,6 +2,9 @@
 import images
 # Contains ASCII images used in the application
 
+# Username
+username = ""
+
 
 # Game Intro Text
 def intro_text():
@@ -17,7 +20,6 @@ def intro_text():
     print(images.logo_img)
     print(images.welcome_message)
     print("What is your name?\n")
-    username = ""
     while True:
         username = input("")
         if not username.isalpha():
@@ -199,7 +201,7 @@ def end_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        intro_text()
+        print("Welcome back {username}, lets try again!!")
     elif user_input == "n":
         print(
             "Thanks for helping Grogu try to get Mando back!" +
@@ -217,6 +219,7 @@ def win_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
+        print("Welcome back {username}, lets go again!!")
         first_challenge()
     elif user_input == "n":
         print("Thanks for helping Grogu rescue his best pal!!")
