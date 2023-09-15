@@ -251,24 +251,13 @@ This project was developed using [Codeanywhere](https://app.codeanywhere.com/ "L
 
 To deploy this page to Heroku from its Codeanywhere repository, the following steps were taken:
 
+1. Get Python Essentials Template from Code Institute [P3 Template](https://github.com/Code-Institute-Org/p3-template "p3 template link")
+2. Create new repository using the P3 template 
+3. Copy github code link and paste into code anywhere to create new workspace.  
 1. Log into [Heroku]( https://id.heroku.com/login "Link to Heroku login page") 
 2. Create new app
-3. Navigate to settings
-4. Add the following KEY/VALUE pairs
-- CREDS + copy/paste from creds.json file
-- PORT + 8000
-5. Add build pakcs, Python first, then nodejs
-6. Go to GitPod Terminal
-7. type the following commands into the terminal:
-•	heroku login -i
-•	enter in username + password
-•	heroku apps
-•	heroku git:remote -a my-app-name
-•	git add .
-•	git commit -m "Deploy to Heroku cia CLI"
-•	git push origin main
-•	git push heroku main
-The live link can be found here [ColourChange Challenge](https://sarahgoodwin93.github.io/project2-colourchange-challenge/index.html "Link to deployed ColourChange Challenge")
+3. 
+The live link can be found here [Help Grogu](https://help-grogu-5d7736926f92.herokuapp.com/ "Link to deployed Help Grogu page")
 
 # Technologies Used
 
