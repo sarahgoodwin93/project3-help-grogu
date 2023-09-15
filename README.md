@@ -75,7 +75,19 @@ The background image helps to add to the user experience while making their way 
 
 ## ASCII Images
 
-![ASCII screenshots]( "Screenshot of ASCII")
+ASCII images were used to help bring users into the star wars universe. 
+All images were taken from 
+
+The star wars logo was used - this was taken from [STAR WARS](https://ascii.co.uk/art/starwars "link to star wars ascii")
+![ASCII screenshots](assets/images/star-wars-ascii.png "Screenshot of star wars ASCII")
+
+The star wars intro text was used - this was taken and then adapted from [STAR WARS](https://ascii.co.uk/art/starwars "link to star wars ascii")
+![ASCII screenshots](assets/images/intro-test-ascii.png "Screenshot of intro text ASCII")
+
+Grogu image was also used - this was taken from
+![ASCII screenshots](https://emojicombos.com/grogu-ascii-art "Screenshot of grogu ASCII")
+
+
 
 [Back to Top](#help-grogu)
 
@@ -84,7 +96,6 @@ The background image helps to add to the user experience while making their way 
 ## Manual Testing
 
 Manual testing was carried out on every page and with every link.
-Mobile testing was not carried out. 
 
 #### Laptops
 
@@ -111,10 +122,6 @@ Mobile testing was not carried out.
 Some errors that were found and fixed included
 - Trailing whitespace
 - Line too long
-
-## Lighthouse scores
-
-![Lighthouse score home](assets/images/readme-images/lighthouse-home.png "Lighthouse score home image")
 
 [Back to Top](#help-grogu)
 
@@ -233,16 +240,12 @@ The live link can be found here [Help Grogu](https://help-grogu-5d7736926f92.her
 
 # Technologies Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML5 wikipedia")
-- [CSS3](https://en.wikipedia.org/wiki/CSS "Link to CSS3 wikipedia")
 - [Python]( https://en.wikipedia.org/wiki/Python_(programming_language) "link to Python wikipedia")
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
   GitPod was used for writing code, adding, committing and pushing to github
 - [GitHub](https://github.com/ "Link to GitHub webpage")
   GitHub was used to store the code files, README files and asset files after pushing
-- [Lucid](https://www.figma.com/?fuid= "link to figma homepage")
-  Lucid was used for the flow chart
 - [Canva](https://www.canva.com/en_gb/login/ "Link to Canva webpage")
   Canva Pro was used to create images for the site
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
@@ -260,7 +263,7 @@ Wording for the site was all created by Sarah Goodwin
 
 ### Images
 
-Images and logos for the site were all created by Sarah Goodwin using Canva Pro
+Background image for the site were all created by Sarah Goodwin using Canva Pro
 
 # Education
 
