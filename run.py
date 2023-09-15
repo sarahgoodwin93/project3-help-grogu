@@ -15,8 +15,8 @@ def intro_text():
     begin with the first challenge
     """
     print(
-        "Welcome to the game that will take you" +
-        "on an out of space adventure!"
+        "Welcome to the game that will take you " +
+        "on an outer space adventure!"
         )
     print("Can you help Grogu find his way back to Din Djarin?")
     print(images.logo_img)
@@ -42,6 +42,7 @@ def first_challenge():
     """
     while True:
         user_choice = ""
+        print(" ")
         print("You discover that Mando might be on Moth Gideons light cruiser")
         print("But you need a ship to be able to catch up to him")
         print("Do you...")
@@ -53,7 +54,7 @@ def first_challenge():
             "B) Try to sneak onboard a ship leaving " +
             "the shipyard as stowaways?"
             )
-        print("C) Get Grogu to steal someone's keys using the force")
+        print("C) Get Grogu to steal someone's keys using the force?")
         user_choice = str(input("What do you deciede A,B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print("You lose the game and now owe all the gamblers a drink!")
@@ -82,6 +83,7 @@ def second_challenge():
     """
     while True:
         user_choice = ""
+        print(" ")
         print("You make it onto the ship")
         print("But the ship doesnt start")
         print("Do you...")
@@ -123,7 +125,10 @@ def third_challenge():
             "Your ships just makes it to planet, " +
             "although it's still falling apart"
             )
-        print("You head into the local Salon to find out some more information")
+        print(
+            "You head into the local Salon to find " +
+            "out some more information."
+            )
         print(
             "Moth Giden troops have been spotted " +
             "on the other side of the planet!"
