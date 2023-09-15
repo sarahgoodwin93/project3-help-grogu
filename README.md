@@ -124,8 +124,8 @@ Some errors that were found and fixed included
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
 | What is your name | Typed letters to spell name | Name accepted and game continues | Worked as expected | N/A |
-| What is your name | Typed numbers as name | Error message should appear "Sorry, we don't know that language, pleaseuse some letters we can understand" | Worked as expected | N/A |
-| What is your name | Pressed Enter for name | Error message should appear "Sorry, we don't know that language, pleaseuse some letters we can understand" | Worked as expected | N/A |
+| What is your name | Typed numbers as name | Error message should appear "Sorry, we don't know that language, please use some letters we can understand" | Worked as expected | N/A |
+| What is your name | Pressed Enter for name | Error message should appear "Sorry, we don't know that language, please use some letters we can understand" | Worked as expected | N/A |
 
 ## First Challenge testing comments
 
@@ -256,7 +256,6 @@ The live link can be found here [Help Grogu](https://help-grogu-5d7736926f92.her
 # Credits
 
 - Learnt how to add ASCII images from [Stack OverFlow](https://stackoverflow.com/questions/23623288/print-full-ascii-art "link to stack overflow")
-- 
 
 ## Content
 
