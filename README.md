@@ -18,18 +18,14 @@ Choose out of the options to try to try make your way through the game.
       - [Laptops](#laptops)
       - [Desktop](#desktop)
       - [Browsers](#browsers)
-  - [Validator Testing](#validator-testing)
+  - [Testing](#validator-testing)
     - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
   - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
-  - [Deploying on GitHub Pages](#deploying-on-github-pages)
 - [Technologies Used](#technologies-used)
 - [Future Features to Implement](#future-features-to-implement)
 - [Credits](#credits)
-  - [Content](#content)
-    - [Images](#images)
 - [Education](#education)
-  - [Game Inspiration](#game-inspiration)
 
 # Key Project Goals
 
@@ -222,22 +218,29 @@ To deploy this page to Heroku from its Codeanywhere repository, the following st
 
 1. Get Python Essentials Template from Code Institute [P3 Template](https://github.com/Code-Institute-Org/p3-template "p3 template link")
 2. Create new repository using the P3 template 
-3. Copy github code link and paste into code anywhere to create new workspace.  
-1. Log into [Heroku]( https://id.heroku.com/login "Link to Heroku login page") 
-2. Create new app
-3. 
+3. Copy the repo url and copy into Codeanywhere to create a new workspace
+4. Close README tab and create first file named index.html
+5. Open terminal, type (git add .) (git commit -m "initial commit") (git push)
+6. Type 'Pip3 freeze > requirements.txt' into the terminal and commit. 
+7. Log into [Heroku]( https://id.heroku.com/login "Link to Heroku login page") 
+8. Create new app and name it Help Grogu
+9. Add config vars - The key is PORT and the value is 8000
+10. Add build pack, select Python - click save, then select node.js - click save - in that order
+11. Go to deploy section - select automatic deploys
+12. Project is now deployed. 
 The live link can be found here [Help Grogu](https://help-grogu-5d7736926f92.herokuapp.com/ "Link to deployed Help Grogu page")
 
 # Technologies Used
 
 - [Python]( https://en.wikipedia.org/wiki/Python_(programming_language) "link to Python wikipedia")
-- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts webpage")
 - [Codeanywhere](https://app.codeanywhere.com/ "Link to Codeanywhere webpage")
-  GitPod was used for writing code, adding, committing and pushing to github
+  Codeanywhere was used for writing code, adding, committing and pushing to github
 - [GitHub](https://github.com/ "Link to GitHub webpage")
   GitHub was used to store the code files, README files and asset files after pushing
+- [Heroku](https://id.heroku.com/login "Link to Heroku login")
+  Heroku was used to deploy the project to. 
 - [Canva](https://www.canva.com/en_gb/login/ "Link to Canva webpage")
-  Canva Pro was used to create images for the site
+  Canva Pro was used to create the background image for the site
 - [Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I responsive webpage")
   Am I Responsive was used in order to see responsive design and create screenshots of the final page on different devices.
 
@@ -245,7 +248,15 @@ The live link can be found here [Help Grogu](https://help-grogu-5d7736926f92.her
 
 # Future Features to Implement
 
+- Add more challenges and options for users to continue the game.
+- Have more 'choose your own adventure' options where each choice takes the game somewhere different, rather than ending the game after only 1 wrong choice. 
+- Add more creative images to the game to enhance user experience.
+- Add a slow print to the game to make reading the text easier for the user. 
+
 # Credits
+
+- Learnt how to add ASCII images from [Stack OverFlow](https://stackoverflow.com/questions/23623288/print-full-ascii-art "link to stack overflow")
+- 
 
 ## Content
 
@@ -265,16 +276,12 @@ The following sites assisted in learning more about the code that was being writ
   W3Schools was used to gain a better understanding of css styles and how to apply them
 - [ChatGPT](https://openai.com/blog/chatgpt "link to chatgpt page")
   ChatGPT was used gain a better understanding of python functions
-
 - [CluelessBiker/mentoring](https://github.com/CluelessBiker/mentoring "link to CluesslessBiker repo")
   CluelessBiker mentoring github page was used to check examples of projects, access links to resources such as validators and w3schools, Am I Responsive.
-
+- [Love Sandwiches](https://github.com/sarahgoodwin93/love-sandwiches "link to love sandwiches")
+  Love Sandwiches was used as part of the education process and was referred back to for the deployment of the project
 - Comparative Programming Languages Essentials & Python Essentials Code Insititue Modules
   The modules notes that Sarah Goodwin took for the Comparative Programming & Python Essentials sections were referred back to write code
-
-## Game Inspiration
-
-
 
 [Back to Top](#help-grogu)
 
