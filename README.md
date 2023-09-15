@@ -12,7 +12,6 @@ Choose out of the options to try to try make your way through the game.
 - [Key Project Goals](#key-project-goals)
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
-  - [Flow Chart](#flow-chart)
 - [Features](#features)
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
@@ -78,8 +77,9 @@ The star wars logo was used - this was taken from [STAR WARS](https://ascii.co.u
 The star wars intro text was used - this was taken and then adapted from [STAR WARS](https://ascii.co.uk/art/starwars "link to star wars ascii")
 ![ASCII screenshots](assets/images/intro-test-ascii.png "Screenshot of intro text ASCII")
 
-Grogu image was also used - this was taken from
-![ASCII screenshots](https://emojicombos.com/grogu-ascii-art "Screenshot of grogu ASCII")
+Grogu image was also used - this was taken from [emoji combos](https://emojicombos.com/grogu-ascii-art "link to emoji combos")
+
+![ASCII screenshots](assets/images/grogu-ascii.png "Screenshot of grogu ASCII")
 
 [Back to Top](#help-grogu)
 
@@ -87,7 +87,7 @@ Grogu image was also used - this was taken from
 
 ## Manual Testing
 
-Manual testing was carried out on every page and with every link.
+Manual testing was carried out on every option.
 
 #### Laptops
 
@@ -121,7 +121,7 @@ Some errors that were found and fixed included
 
 | **TEST**                  | **ACTION**        | **EXPECTATION**                                            | **RESULT**        | **FIX** |
 | ------------------------- | ----------------- | ---------------------------------------------------------- | ----------------- | ------- |
-| Run Program Button | Click run program button | Game begins | Works as expected | N/A     |
+| Run Program Button | Click run program button | Game begins | Works as expected | N/A |
 
 ## What is your name testing comments
 
@@ -135,9 +135,9 @@ Some errors that were found and fixed included
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Option A - Try to win a ship in a card game with sketchy gamblers at the local drinking spot? | Pressed A | Message should show "You lose the game and now owe all the gamblers a drink!" and the endgame() is started | Message was shown and endgame() ran | N/A |
-| Option B - Try to sneak onboard a ship leaving the shipyard as stowaways? | Pressed B | Message should show "You get found and chucked off the ship!" and the endgame() is started | Message was shown and endgame() ran | N/A |
-| Option C - Get Grogu to steal someone's keys using the force | Pressed C | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Message was shown and second_challenge began | N/A |
+| Option A | Pressed A | Message should show "You lose the game and now owe all the gamblers a drink!" and the endgame() is started | Message was shown and endgame() ran | N/A |
+| Option B | Pressed B | Message should show "You get found and chucked off the ship!" and the endgame() is started | Message was shown and endgame() ran | N/A |
+| Option C | Pressed C | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Message was shown and second_challenge began | N/A |
 | Choose any other letter | Pressed D| Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 | Choose lowercase a, b or c | Pressed c | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Worked as expected | N/A |
 | Enter | Pressed enter | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
@@ -146,67 +146,65 @@ Some errors that were found and fixed included
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "Peli Motto answers your call! She tells you how to fix the ship and off you go!" and the third_challenge() function should run | Message was shown and third_challenge() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "Grogu drops the spanner down a shoot and you can't fix the ship" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "You head back to town and the gamblers find you again and take grogu for yet another drink!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed b | Message should show "Grogu drops the spanner down a shoot and you can't fix the ship" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key | Pressed ! | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Third Challenge testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "" and the fourth_challenge() function should run | Message was shown and fourth_challenge() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Fourth Challenge testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "" and the fifth_challenge() function should run | Message was shown and fifth_challenge() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
-## Sixth Challenge testing comments
+## Fifth Challenge testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "" and the win_game() function should run | Message was shown and win_game() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## End Game testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Choose Y | Press Y |  | Worked as expected | N/A |
+| Choose N | Press N |  | Worked as expected | N/A |
+| Choose lowercase y or n |  |  | Worked as expected | N/A |
+| Any other letter |  |  | Worked as expected | N/A |
+| Another key |  |  | Worked as expected | N/A |
 
 ## Win Game testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
-|  |  |  | Worked as expected | N/A |
+| Choose Y | Press Y |  | Worked as expected | N/A |
+| Choose N | Press N |  | Worked as expected | N/A |
+| Choose lowercase y or n |  |  | Worked as expected | N/A |
+| Any other letter |  |  | Worked as expected | N/A |
+| Another key |  |  | Worked as expected | N/A |
 
 ## Unfixed Bugs
 
