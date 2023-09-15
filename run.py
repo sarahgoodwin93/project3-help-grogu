@@ -228,37 +228,41 @@ def end_game():
     """
     Ends the game and asks if the user wants to play again
     """
-    print("Do you want to play again? y/n \n")
-    user_input = str(input("").lower())
-    if user_input == "y" or user_input == "Y":
-        print("............Welcome back, lets try again!!............")
-        first_challenge()
-    elif user_input == "n" or user_input == "N":
-        print(
-            "Thanks for helping Grogu try to get Mando back! " +
-            "Better luck next time!"
-            )
-        quit()
-    else:
-        print("You must choose yes or no")
-        print("............TRY THAT AGAIN............")
+    while True:
+        print("Do you want to play again? y/n \n")
+        user_input = str(input("").lower())
+        if user_input == "y" or user_input == "Y":
+            print("............Welcome back, lets try again!!............")
+            first_challenge()
+        elif user_input == "n" or user_input == "N":
+            print(
+                "Thanks for helping Grogu try to get Mando back! " +
+                "Better luck next time!"
+                )
+            quit()
+        else:
+            print("You must choose yes or no")
+            print("............TRY THAT AGAIN............")
+            end_game()
 
 
 def win_game():
     """
     Message to be displayed if they win the game
     """
-    print("Do you want to play again? y/n \n")
-    user_input = str(input("").lower())
-    if user_input == "y" or user_input == "Y":
-        print("............Welcome back, lets go!!............")
-        first_challenge()
-    elif user_input == "n" or user_input == "N":
-        print("Thanks for helping Grogu rescue his best pal!!")
-        quit()
-    else:
-        print("You must choose yes or no")
-        print("............TRY THAT AGAIN............")
+    while True:
+        print("Do you want to play again? y/n \n")
+        user_input = str(input("").lower())
+        if user_input == "y" or user_input == "Y":
+            print("............Welcome back, lets go!!............")
+            first_challenge()
+        elif user_input == "n" or user_input == "N":
+            print("Thanks for helping Grogu rescue his best pal!!")
+            quit()
+        else:
+            print("You must choose yes or no")
+            print("............TRY THAT AGAIN............")
+            win_game()
 
 
 def main():
