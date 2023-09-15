@@ -10,9 +10,11 @@ username = ""
 def intro_text():
     """
     Introduction to the game, allows users to input their name
-    and explains the story and journey they are about to go on
+    and explains the story and journey they are about to go on.
     Once the user has input their name correctly, the game will
-    begin with the first challenge
+    begin with the first challenge.
+    If the user does not input their name with letters, the error
+    message will show and they cannot continue until they do so.
     """
     print(
         "Welcome to the game that will take you " +
@@ -38,11 +40,12 @@ def intro_text():
 def first_challenge():
     """
     Outlined the first options of the game
-    and allows user to choose where the game will go
+    and allows user to choose where the game will go.
+    The while loops ensures the user only chooses a, b or c.
+    2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
-        print(" ")
         print("You discover that Mando might be on Moth Gideons light cruiser")
         print("But you need a ship to be able to catch up to him")
         print("Do you...")
@@ -79,7 +82,9 @@ def first_challenge():
 def second_challenge():
     """
     Outline the second options of the game and
-    allows user to choose where the game will go
+    allows user to choose where the game will go.
+    The while loops ensures the user only chooses a, b or c.
+    2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
@@ -117,7 +122,9 @@ def second_challenge():
 def third_challenge():
     """
     Outline the third options of the game and
-    allows user to choose where the game will go
+    allows user to choose where the game will go.
+    The while loops ensures the user only chooses a, b or c.
+    2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
@@ -159,7 +166,9 @@ def third_challenge():
 def fourth_challenge():
     """
     Outline the fourth options of the game and
-    allows user to choose where the game will go
+    allows user to choose where the game will go.
+    The while loops ensures the user only chooses a, b or c.
+    2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
@@ -193,7 +202,9 @@ def fourth_challenge():
 def fifth_challenge():
     """
     Outline the fifth options of the game and
-    allows user to choose where the game will go
+    allows user to choose where the game will go.
+    The while loops ensures the user only chooses a, b or c.
+    2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
@@ -226,7 +237,10 @@ def fifth_challenge():
 
 def end_game():
     """
-    Ends the game and asks if the user wants to play again
+    Ends the game and asks if the user wants to play again.
+    If they choose yes the game will begin again with challenge 1.
+    If they choose no the game will quit.
+    The while loops ensures the user only chooses y or n.
     """
     while True:
         print("Do you want to play again? y/n \n")
@@ -248,7 +262,11 @@ def end_game():
 
 def win_game():
     """
-    Message to be displayed if they win the game
+    Message to be displayed if they win the game.
+    It will ask if they want to choose again.
+    If they choose yes the game will begin again with challenge 1.
+    If they choose no the game will quit.
+    The while loops ensures the user only chooses y or n.
     """
     while True:
         print("Do you want to play again? y/n \n")
@@ -267,7 +285,7 @@ def win_game():
 
 def main():
     """
-    Main functions in order
+    Main function in order to start the game at the intro text.
     """
     intro_text()
 

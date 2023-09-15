@@ -1,6 +1,7 @@
 # [Help Grogu](https://help-grogu-5d7736926f92.herokuapp.com/ "take you to help grogu program")
 
-Help Grogu is a game …
+Help Grogu is a text based game that will bring you on an adventure to help Grogu find his way back to Mando. 
+Choose out of the options to try to try make your way through the game.
 
 ![Responsive Image](assets/images/am-i-responsive.png "am I responsive screenshot image")
 
@@ -68,9 +69,9 @@ The target audience for this website is for any and all star wars fans (but not 
 
 # Features
 
-## Navigation
-
 ## Background Image
+
+The background image helps to add to the user experience while making their way through the game. 
 
 ## ASCII Images
 
@@ -139,6 +140,7 @@ Some errors that were found and fixed included
 | Option B - Try to sneak onboard a ship leaving the shipyard as stowaways? | Pressed B | Message should show "You get found and chucked off the ship!" and the endgame() is started | Message was shown and endgame() ran | N/A |
 | Option C - Get Grogu to steal someone's keys using the force | Pressed C | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Message was shown and second_challenge began | N/A |
 | Choose any other letter | Pressed D| Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed c | Message should show "Grogu gets the keys and you find the ship, time to get going!" and second_challenge() begins | Worked as expected | N/A |
 | Enter | Pressed enter | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Second Challenge testing comments
