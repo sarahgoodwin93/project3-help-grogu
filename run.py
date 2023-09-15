@@ -231,7 +231,7 @@ def end_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        print("Welcome back, lets try again!!")
+        print("............Welcome back, lets try again!!............")
         first_challenge()
     elif user_input == "n":
         print(
@@ -251,7 +251,7 @@ def win_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y":
-        print("Welcome back, lets go again!!")
+        print("............Welcome back, lets go again!!............")
         first_challenge()
     elif user_input == "n":
         print("Thanks for helping Grogu rescue his best pal!!")
