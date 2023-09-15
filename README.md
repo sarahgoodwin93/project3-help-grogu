@@ -180,31 +180,31 @@ Some errors that were found and fixed included
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
 | Option A | Pressed A | Message should show "You've got him!! Well done for rescuing Mando! You can now go and enjoy more adventures together!" and the win_game() function should run | Message was shown and win_game() ran | Worked as expected | N/A |
-| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "You wait, and wait and they dont come back, you deciede to go get help and miss their ship departing..." and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "Looks like no one is coming and Moth Giden got away!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
 | Choose any other letter | Pressed Q | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
-| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed c | Message should show "Looks like no one is coming and Moth Giden got away!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
 | Another key | Pressed enter | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## End Game testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Choose Y | Press Y |  | Worked as expected | N/A |
-| Choose N | Press N |  | Worked as expected | N/A |
-| Choose lowercase y or n |  |  | Worked as expected | N/A |
-| Any other letter |  |  | Worked as expected | N/A |
-| Another key |  |  | Worked as expected | N/A |
+| Choose Y | Press Y | Game restarts at first challenge without intro text and with message "............Welcome back, lets try again!!............" | Worked as expected | N/A |
+| Choose N | Press N | Game quits and message "Thanks for helping Grogu try to get Mando back! Better luck next time!" should show | Worked as expected | N/A |
+| Choose lowercase y or n | Pressed n | Game quits and message "Thanks for helping Grogu rescue his best pal!!" should show | Worked as expected | N/A |
+| Any other letter | Pressed U | Message "You must choose yes or no" should show and user must try again | Worked as expected | N/A |
+| Another key | Pressed 7 | Message "You must choose yes or no" should show and user must try again | Worked as expected | N/A |
 
 ## Win Game testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Choose Y | Press Y |  | Worked as expected | N/A |
-| Choose N | Press N |  | Worked as expected | N/A |
-| Choose lowercase y or n |  |  | Worked as expected | N/A |
-| Any other letter |  |  | Worked as expected | N/A |
-| Another key |  |  | Worked as expected | N/A |
+| Choose Y | Press Y | Game restarts at first challenge without intro text and with message "............Welcome back, lets go!!............" | Worked as expected | N/A |
+| Choose N | Press N | Game quits and message "Thanks for helping Grogu rescue his best pal!!" should show | Worked as expected | N/A |
+| Choose lowercase y or n | Pressed y | Game quits and message "Thanks for helping Grogu rescue his best pal!!" should show | Worked as expected | N/A |
+| Any other letter | Pressed U | Message "You must choose yes or no" should show and user must try again | Worked as expected | N/A |
+| Another key | Pressed % | Message "You must choose yes or no" should show and user must try again | Worked as expected | N/A |
 
 ## Unfixed Bugs
 
