@@ -2,7 +2,7 @@
 
 Help Grogu is a game …
 
-![Responsive Image]( "")
+![Responsive Image](assets/images/am-i-responsive.png "am I responsive screenshot image")
 
 # Table of Contents
 
@@ -11,8 +11,6 @@ Help Grogu is a game …
 - [Key Project Goals](#key-project-goals)
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
   - [Flow Chart](#flow-chart)
   - [Typography](#typography)
 - [Features](#features)
@@ -65,13 +63,6 @@ The target audience for this website is for any and all star wars fans (but not 
 1. As a returning user I want to get further in the game than I did on my last go
 2. As a returning user I want to see different outcomes depending on the option I choose
 3. As a returning user I want to see new questions added so the game continues 
-
-# Design
-
-## Colour Scheme
-
-The colour scheme was chosen to represent outer space.
-#02496d was chosen for the button to match the background going into hyperspace
 
 ## Flow Chart
 
