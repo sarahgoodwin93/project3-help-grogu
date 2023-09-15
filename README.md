@@ -149,7 +149,7 @@ Some errors that were found and fixed included
 | Option A | Pressed A | Message should show "Peli Motto answers your call! She tells you how to fix the ship and off you go!" and the third_challenge() function should run | Message was shown and third_challenge() ran | Worked as expected | N/A |
 | Option B | Pressed B | Message should show "Grogu drops the spanner down a shoot and you can't fix the ship" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
 | Option C | Pressed C | Message should show "You head back to town and the gamblers find you again and take grogu for yet another drink!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose any other letter | Pressed F | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 | Choose lowercase a, b or c | Pressed b | Message should show "Grogu drops the spanner down a shoot and you can't fix the ship" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
 | Another key | Pressed ! | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
@@ -157,34 +157,34 @@ Some errors that were found and fixed included
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Option A | Pressed A | Message should show "" and the fourth_challenge() function should run | Message was shown and fourth_challenge() ran | Worked as expected | N/A |
-| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
-| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "You've made it, but they are no where to be seen!" and the fourth_challenge() function should run | Message was shown and fourth_challenge() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "AND CRASH. Sorry your ship is broken and it will be a while before you can get it going again" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "Grogu has been distracted by a local's eggs..." and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter | Pressed h | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed b | Message should show "AND CRASH. Sorry your ship is broken and it will be a while before you can get it going again" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key | Pressed 5 | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Fourth Challenge testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Option A | Pressed A | Message should show "" and the fifth_challenge() function should run | Message was shown and fifth_challenge() ran | Worked as expected | N/A |
-| Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
-| Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "Grogu has found him! He is located in a secret hideout a few clicks away!" and the fifth_challenge() function should run | Message was shown and fifth_challenge() ran | Worked as expected | N/A |
+| Option B | Pressed B | Message should show "You go home and Mando is lost forever" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Option C | Pressed C | Message should show "You get back to your ship to contact the conenant, but who knows when they'll get here!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Choose any other letter | Pressed i | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose lowercase a, b or c | Pressed a | Message should show "Grogu has found him! He is located in a secret hideout a few clicks away!" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
+| Another key | Pressed spacebar | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## Fifth Challenge testing comments
 
 | **TEST**          | **ACTION**                    | **EXPECTATION**                           | **RESULT**         | **FIX** |
 | ----------------- | ----------------------------- | ----------------------------------------- | ------------------ | ------- |
-| Option A | Pressed A | Message should show "" and the win_game() function should run | Message was shown and win_game() ran | Worked as expected | N/A |
+| Option A | Pressed A | Message should show "You've got him!! Well done for rescuing Mando! You can now go and enjoy more adventures together!" and the win_game() function should run | Message was shown and win_game() ran | Worked as expected | N/A |
 | Option B | Pressed B | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
 | Option C | Pressed C | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Choose any other letter |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Choose any other letter | Pressed Q | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 | Choose lowercase a, b or c | Pressed b | Message should show "" and the end_game() function should run | Message was shown and end_game() ran | Worked as expected | N/A |
-| Another key |  | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
+| Another key | Pressed enter | Message "You must choice A, B or C" should appear and user must choose again | Worked as expected | N/A |
 
 ## End Game testing comments
 
