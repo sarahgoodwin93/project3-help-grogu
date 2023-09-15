@@ -13,23 +13,14 @@ Choose out of the options to try to try make your way through the game.
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Flow Chart](#flow-chart)
-  - [Typography](#typography)
 - [Features](#features)
-  - [Navigation](#navigation)
-  - [Hero Image / Background](#hero-image--background)
-  - [Landing Page](#landing-page)
-  - [Other Pages](#other-pages)
-  - [The Footer](#the-footer)
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
       - [Laptops](#laptops)
       - [Desktop](#desktop)
-      - [Mobile](#mobile)
       - [Browsers](#browsers)
   - [Validator Testing](#validator-testing)
     - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
-  - [Nav Bar Testing Comments](#nav-bar-testing-comments)
-  - [Other Testing Comments](#other-testing-comments)
   - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
   - [Deploying on GitHub Pages](#deploying-on-github-pages)
@@ -42,6 +33,13 @@ Choose out of the options to try to try make your way through the game.
   - [Game Inspiration](#game-inspiration)
 
 # Key Project Goals
+
+Project Goals
+
+- Build a game using Python that lets you try to choose your own adventure, with 1 right answer one 2 wrong ones. 
+- Create a user friendly experience that makes the user feel like they are in the star wars universe.
+- Create a game that is easy to understand.
+- Ensure user cannot choose an input other than the ones that the game has given to choose from.
 
 ## Target Audience
 
@@ -60,10 +58,6 @@ The target audience for this website is for any and all star wars fans (but not 
 1. As a returning user I want to get further in the game than I did on my last go
 2. As a returning user I want to see different outcomes depending on the option I choose
 3. As a returning user I want to see new questions added so the game continues 
-
-## Flow Chart
-
-![FlowChart]( "")
 
 [Back to Top](#help-grogu)
 
@@ -86,8 +80,6 @@ The star wars intro text was used - this was taken and then adapted from [STAR W
 
 Grogu image was also used - this was taken from
 ![ASCII screenshots](https://emojicombos.com/grogu-ascii-art "Screenshot of grogu ASCII")
-
-
 
 [Back to Top](#help-grogu)
 
@@ -113,7 +105,7 @@ Manual testing was carried out on every page and with every link.
 
 ## Validator Testing
 
-![ PEP8 Validator]( " PEP8 valid image")
+![PEP8 Validator](assets/images/python-linter.png "PEP8 valid image")
 
 </details>
 
