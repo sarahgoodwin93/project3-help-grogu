@@ -73,7 +73,7 @@ def first_challenge():
             break
         else:
             print("You must choose A, B, or C")
-            print("............LET'S TRY THAT AGAIN............")
+            print("............TRY THAT AGAIN............")
 
 
 def second_challenge():
@@ -111,7 +111,7 @@ def second_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
-            print("............LET'S TRY THAT AGAIN............")
+            print("............TRY THAT AGAIN............")
 
 
 def third_challenge():
@@ -153,7 +153,7 @@ def third_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
-            print("............LET'S TRY THAT AGAIN............")
+            print("............TRY THAT AGAIN............")
 
 
 def fourth_challenge():
@@ -187,7 +187,7 @@ def fourth_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
-            print("............LET'S TRY THAT AGAIN............")
+            print("............TRY THAT AGAIN............")
 
 
 def fifth_challenge():
@@ -221,7 +221,7 @@ def fifth_challenge():
             end_game()
         else:
             print("You must choose A, B or C")
-            print("............LET'S TRY THAT AGAIN............")
+            print("............TRY THAT AGAIN............")
 
 
 def end_game():
@@ -241,7 +241,7 @@ def end_game():
         quit()
     else:
         print("You must choose yes or no")
-        print("............LET'S TRY THAT AGAIN............")
+        print("............TRY THAT AGAIN............")
 
 
 def win_game():
@@ -251,14 +251,14 @@ def win_game():
     print("Do you want to play again? y/n \n")
     user_input = str(input("").lower())
     if user_input == "y" or user_input == "Y":
-        print("............Welcome back, lets go again!!............")
+        print("............Welcome back, lets go!!............")
         first_challenge()
     elif user_input == "n" or user_input == "N":
         print("Thanks for helping Grogu rescue his best pal!!")
         quit()
     else:
         print("You must choose yes or no")
-        print("............LET'S TRY THAT AGAIN............")
+        print("............TRY THAT AGAIN............")
 
 
 def main():

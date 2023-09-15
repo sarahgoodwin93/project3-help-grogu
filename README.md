@@ -26,11 +26,7 @@ Help Grogu is a game …
       - [Mobile](#mobile)
       - [Browsers](#browsers)
   - [Validator Testing](#validator-testing)
-    - [W3 - HTML validator](#w3---html-validator)
-    - [W3C - CSS Validator](#w3c---css-validator)
     - [Errors that were found in validator and fixed](#errors-that-were-found-in-validator-and-fixed)
-  - [Lighthouse scores](#lighthouse-scores)
-  - [Mobile and iPad Testing Comments](#mobile-and-ipad-testing-comments)
   - [Nav Bar Testing Comments](#nav-bar-testing-comments)
   - [Other Testing Comments](#other-testing-comments)
   - [Unfixed Bugs](#unfixed-bugs)
@@ -105,39 +101,13 @@ Mobile testing was not carried out.
 
 ## Validator Testing
 
-### W3 - HTML validator
-
-<details>
-<summary>HTML</summary>
-<details>
-<summary>Landing Page</summary>
-
-![HTML Validator Homepage]( "w3 validator homepage image")
-
-</details>
-</details>
-
-### W3C - CSS Validator
-
-<details>
-<summary>CSS - Please see screenshot of CSS Jigsaw validator</summary>
-
-![CSS Validator]( "Css valid image")
-
-</details>
-
-### PEP8 - Python Validator
-
-<details>
-<summary>Python - Please see screenshot of PEP8 - Python Validator </summary>
-
 ![ PEP8 Validator]( " PEP8 valid image")
 
 </details>
 
 ### Errors that were found in validator and fixed
 
-Some errors that were found included
+Some errors that were found and fixed included
 - Trailing whitespace
 - Line too long
 
