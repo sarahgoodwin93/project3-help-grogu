@@ -97,7 +97,7 @@ def second_challenge():
             third_challenge()
         elif user_choice == "B" or user_choice == "b":
             print(
-                "Grogu drops the spanner down a shoot" +
+                "Grogu drops the spanner down a shoot " +
                 "and you can't fix the ship"
                 )
             end_game()
@@ -200,13 +200,13 @@ def fifth_challenge():
         user_choice = str(input("What do you deciede A,B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print(
-                "You've got him!! Well done for rescuing Mando!" +
+                "You've got him!! Well done for rescuing Mando! " +
                 "You can now go and enjoy more adventures together!"
                 )
             win_game()
         elif user_choice == "B" or user_choice == "b":
             print(
-                "You wait, and wait and they dont come back, you" +
+                "You wait, and wait and they dont come back, you " +
                 "deciede to go get help and miss their ship departing..."
                 )
             end_game()
@@ -229,7 +229,7 @@ def end_game():
         first_challenge()
     elif user_input == "n":
         print(
-            "Thanks for helping Grogu try to get Mando back!" +
+            "Thanks for helping Grogu try to get Mando back! " +
             "Better luck next time!"
             )
         quit()
