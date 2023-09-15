@@ -92,7 +92,7 @@ def second_challenge():
         if user_choice == "A" or user_choice == "a":
             print(
                 "Peli Motto answers your call! She tells " +
-                "you how to fix the ship and off you go"
+                "you how to fix the ship and off you go!"
                 )
             third_challenge()
         elif user_choice == "B" or user_choice == "b":
@@ -121,12 +121,12 @@ def third_challenge():
         user_choice = ""
         print(
             "Your ships just makes it to planet, " +
-            "although still falling apart"
+            "although it's still falling apart"
             )
-        print("You head into the local Salon to find some more information")
+        print("You head into the local Salon to find out some more information")
         print(
             "Moth Giden troops have been spotted " +
-            "on the other side of the planet"
+            "on the other side of the planet!"
         )
         print("Do you...")
         print("A) Get a speedster to get there quick before they get away!")
@@ -135,6 +135,7 @@ def third_challenge():
         user_choice = str(input("What do you deciede A,B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print("You've made it, but they are no where to be seen!")
+            fourth_challenge()
         elif user_choice == "B" or user_choice == "b":
             print(
                 "AND CRASH. Sorry your ship is broken and it " +
@@ -142,7 +143,7 @@ def third_challenge():
             )
             end_game()
         elif user_choice == "C" or user_choice == "c":
-            print("Grogu has been distracted by some eggs...")
+            print("Grogu has been distracted by a local's eggs...")
             print(images.grogu)
             end_game()
         else:
@@ -157,8 +158,8 @@ def fourth_challenge():
     """
     while True:
         user_choice = ""
-        print("You get to other side of planet and they are not to be seen")
-        print("But you find Mandos helmet")
+        print("You are looking everywhere for clues")
+        print("And you find Mandos helmet!")
         print("Do you...")
         print("A) Use the force to try to locate him")
         print("B) Cry and go home")
@@ -176,7 +177,7 @@ def fourth_challenge():
         elif user_choice == "C" or user_choice == "c":
             print(
                 "You get back to your ship to contact the " +
-                "conenant but who knows when they'll get here!"
+                "conenant, but who knows when they'll get here!"
                 )
             end_game()
         else:
@@ -194,7 +195,7 @@ def fifth_challenge():
         print("You have used the force and found he is still on the planet")
         print("Taking your speedster to go to where they are hiding")
         print("Do you...")
-        print("A) Break in and resuce him")
+        print("A) Break in and rescue him")
         print("B) Wait until he is transported out to attack their ships then")
         print("C) Wait for help")
         user_choice = str(input("What do you deciede A,B or C? \n"))
