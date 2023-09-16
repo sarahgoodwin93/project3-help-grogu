@@ -37,7 +37,7 @@ def intro_text():
             )
             continue
         else:
-            print(f"Welcome {username}, let's begin!")
+            print(f"Welcome {username}, let's begin!!")
             first_challenge()
 
 
