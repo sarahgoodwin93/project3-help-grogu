@@ -44,8 +44,8 @@ def intro_text():
 # First Challenge Function
 def first_challenge():
     """
-    Outlined the first options of the game
-    and allows user to choose where the game will go.
+    Outlines the first options of the game
+    and allows the user to choose where the game will go.
     The while loops ensures the user only chooses a, b or c.
     2 options will end the game, the other continues onto the next challenge.
     """
@@ -87,8 +87,8 @@ def first_challenge():
 # Second Challenge Function
 def second_challenge():
     """
-    Outline the second options of the game and
-    allows user to choose where the game will go.
+    Outline the second option of the game and
+    allows the user to choose where the game will go.
     The while loops ensures the user only chooses a, b or c.
     2 options will end the game, the other continues onto the next challenge.
     """
@@ -96,11 +96,11 @@ def second_challenge():
         user_choice = ""
         print(" ")
         print("You make it onto the ship")
-        print("But the ship doesnt start")
+        print("But the ship doesn't start")
         print("Do you...")
         print("A) Call the mechanic")
         print("B) Try to fix it yourselves")
-        print("C) Head back into town to try to get different ship")
+        print("C) Head back into town to try to get a different ship")
         user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print(
@@ -117,7 +117,7 @@ def second_challenge():
         elif user_choice == "C" or user_choice == "c":
             print(
                 "You head back to town and the gamblers " +
-                "find you again and take grogu for yet another drink!"
+                "find you again and take Grogu for yet another drink!"
             )
             end_game()
         else:
@@ -128,15 +128,15 @@ def second_challenge():
 # Third Challenge Function
 def third_challenge():
     """
-    Outline the third options of the game and
-    allows user to choose where the game will go.
+    Outline the third option of the game and
+    allows the user to choose where the game will go.
     The while loops ensures the user only chooses a, b or c.
     2 options will end the game, the other continues onto the next challenge.
     """
     while True:
         user_choice = ""
         print(
-            "Your ships just makes it to planet, " +
+            "Your ship just makes it to planet, " +
             "although it's still falling apart"
             )
         print(
@@ -150,7 +150,7 @@ def third_challenge():
         print("Do you...")
         print("A) Get a speedster to get there quick before they get away!")
         print("B) Get back on the ship and try to fly it across")
-        print("C) Try to find our more info from the locals")
+        print("C) Try to find out more info from the locals")
         user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print("You've made it, but they are no where to be seen!")
@@ -173,8 +173,8 @@ def third_challenge():
 # Fourth Challenge Function
 def fourth_challenge():
     """
-    Outline the fourth options of the game and
-    allows user to choose where the game will go.
+    Outline the fourth option of the game and
+    allows the user to choose where the game will go.
     The while loops ensures the user only chooses a, b or c.
     2 options will end the game, the other continues onto the next challenge.
     """
@@ -199,7 +199,7 @@ def fourth_challenge():
         elif user_choice == "C" or user_choice == "c":
             print(
                 "You get back to your ship to contact the " +
-                "conenant, but who knows when they'll get here!"
+                "covenant, but who knows when they'll get here!"
                 )
             end_game()
         else:
@@ -210,8 +210,8 @@ def fourth_challenge():
 # Fifth Challenge Function
 def fifth_challenge():
     """
-    Outline the fifth options of the game and
-    allows user to choose where the game will go.
+    Outline the fifth option of the game and
+    allows the user to choose where the game will go.
     The while loops ensures the user only chooses a, b or c.
     2 options will end the game, the other continues onto the next challenge.
     """
@@ -232,8 +232,8 @@ def fifth_challenge():
             win_game()
         elif user_choice == "B" or user_choice == "b":
             print(
-                "You wait, and wait and they dont come back, you " +
-                "deciede to go get help and miss their ship departing..."
+                "You wait, and wait and they don't come back, you " +
+                "decided to go get help and miss their ship departing..."
                 )
             end_game()
         elif user_choice == "C" or user_choice == "c":
@@ -297,7 +297,7 @@ def win_game():
 # Main Function
 def main():
     """
-    Main function in order to start the game at the intro text.
+    Main function to start the game at the intro text.
     """
     intro_text()
 
