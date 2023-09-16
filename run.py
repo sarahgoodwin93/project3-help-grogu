@@ -15,8 +15,8 @@ def intro_text():
     """
     Introduction to the game, allows users to input their name
     and explains the story and journey they are about to go on.
-    Once the user has input their name correctly, the game will
-    begin with the first challenge.
+    Once the user has input their name correctly,
+    the game will begin with the first challenge.
     If the user does not input their name with letters, the error
     message will show and they cannot continue until they do so.
     """
