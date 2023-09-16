@@ -1,6 +1,6 @@
 # Imports
 import images
-# Contains ASCII images used in the application
+# Contains ASCII images used in the application - these were taken from various websites, more information found in readme.
 
 # Username
 username = ""
@@ -37,6 +37,7 @@ def intro_text():
             first_challenge()
 
 
+# First Challenge Function
 def first_challenge():
     """
     Outlined the first options of the game
@@ -58,7 +59,7 @@ def first_challenge():
             "the shipyard as stowaways?"
             )
         print("C) Get Grogu to steal someone's keys using the force?")
-        user_choice = str(input("What do you deciede A,B or C? \n"))
+        user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print("You lose the game and now owe all the gamblers a drink!")
             end_game()
@@ -79,6 +80,7 @@ def first_challenge():
             print("............TRY THAT AGAIN............")
 
 
+# Second Challenge Function
 def second_challenge():
     """
     Outline the second options of the game and
@@ -95,7 +97,7 @@ def second_challenge():
         print("A) Call the mechanic")
         print("B) Try to fix it yourselves")
         print("C) Head back into town to try to get different ship")
-        user_choice = str(input("What do you deciede A,B or C? \n"))
+        user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print(
                 "Peli Motto answers your call! She tells " +
@@ -119,6 +121,7 @@ def second_challenge():
             print("............TRY THAT AGAIN............")
 
 
+# Third Challenge Function
 def third_challenge():
     """
     Outline the third options of the game and
@@ -144,7 +147,7 @@ def third_challenge():
         print("A) Get a speedster to get there quick before they get away!")
         print("B) Get back on the ship and try to fly it across")
         print("C) Try to find our more info from the locals")
-        user_choice = str(input("What do you deciede A,B or C? \n"))
+        user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print("You've made it, but they are no where to be seen!")
             fourth_challenge()
@@ -163,6 +166,7 @@ def third_challenge():
             print("............TRY THAT AGAIN............")
 
 
+# Fourth Challenge Function
 def fourth_challenge():
     """
     Outline the fourth options of the game and
@@ -178,7 +182,7 @@ def fourth_challenge():
         print("A) Use the force to try to locate him")
         print("B) Cry and go home")
         print("C) Go and get the Mandalorian covenant to try to help")
-        user_choice = str(input("What do you deciede A,B or C? \n"))
+        user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print(
                 "Grogu has found him! He is located " +
@@ -199,6 +203,7 @@ def fourth_challenge():
             print("............TRY THAT AGAIN............")
 
 
+# Fifth Challenge Function
 def fifth_challenge():
     """
     Outline the fifth options of the game and
@@ -214,7 +219,7 @@ def fifth_challenge():
         print("A) Break in and rescue him")
         print("B) Wait until he is transported out to attack their ships then")
         print("C) Wait for help")
-        user_choice = str(input("What do you deciede A,B or C? \n"))
+        user_choice = str(input("What do you decide A, B or C? \n"))
         if user_choice == "A" or user_choice == "a":
             print(
                 "You've got him!! Well done for rescuing Mando! " +
@@ -235,9 +240,10 @@ def fifth_challenge():
             print("............TRY THAT AGAIN............")
 
 
+# End Game Function
 def end_game():
     """
-    Ends the game and asks if the user wants to play again.
+    Ends the game if the player loses and asks if the user wants to play again.
     If they choose yes the game will begin again with challenge 1.
     If they choose no the game will quit.
     The while loops ensures the user only chooses y or n.
@@ -260,6 +266,7 @@ def end_game():
             end_game()
 
 
+# Win Game Function
 def win_game():
     """
     Message to be displayed if they win the game.
@@ -283,6 +290,7 @@ def win_game():
             win_game()
 
 
+# Main Function
 def main():
     """
     Main function in order to start the game at the intro text.
