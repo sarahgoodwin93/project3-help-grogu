@@ -86,6 +86,49 @@ Grogu image was also used - this was taken from [emoji combos](https://emojicomb
 
 [Back to Top](#help-grogu)
 
+## Game Play
+
+### Intro Text
+
+What is your name
+![Name screenshots]( "Screenshot of intro")
+
+Error Handling
+![Error screenshots]( "Screenshot of error handling")
+
+### First Challenge
+
+First Challenge Options
+![First Challenge screenshots]( "Screenshot of first challenge")
+
+### Second Challenge
+
+Second Challenge Options
+![First Challenge screenshots]( "Screenshot of first challenge")
+
+### Third Challenge
+
+Third Challenge Options
+![First Challenge screenshots]( "Screenshot of first challenge")
+
+### Fourth Challenge
+
+Fourth Challenge Options
+![First Challenge screenshots]( "Screenshot of first challenge")
+
+### Fifth Challenge
+
+Fifth Challenge Options
+![First Challenge screenshots]( "Screenshot of first challenge")
+
+### End Game
+
+![End Game screenshots]( "Screenshot of end game")
+
+### Win Game
+
+![Win Game screenshots]( "Screenshot of win game")
+
 # Testing
 
 ## Manual Testing
