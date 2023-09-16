@@ -12,6 +12,7 @@ Choose out of the options to try to try make your way through the game.
 - [Key Project Goals](#key-project-goals)
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
+- [Design](#design)
 - [Features](#features)
 - [Testing](#testing)
   - [Manual Testing](#manual-testing)
@@ -55,6 +56,12 @@ The target audience for this website is for any and all star wars fans (but not 
 3. As a returning user I want to see new questions added so the game continues 
 
 [Back to Top](#help-grogu)
+
+# Design
+
+WireFrame
+
+![Lucid](assets/images/grogu-ascii.png "Screenshot of lucid wireframe")
 
 # Features
 
