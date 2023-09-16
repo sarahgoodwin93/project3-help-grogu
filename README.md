@@ -61,7 +61,7 @@ The target audience for this website is for any and all star wars fans (but not 
 
 WireFrame
 
-![Lucid](assets/images/grogu-ascii.png "Screenshot of lucid wireframe")
+![Lucid](assets/images/flow-chart.png "Screenshot of lucid wireframe")
 
 # Features
 
@@ -91,43 +91,46 @@ Grogu image was also used - this was taken from [emoji combos](https://emojicomb
 ### Intro Text
 
 What is your name
-![Name screenshots]( "Screenshot of intro")
-
-Error Handling
-![Error screenshots]( "Screenshot of error handling")
+![Name screenshots](assets/images/intro-text-and-name.png "Screenshot of intro")
 
 ### First Challenge
 
 First Challenge Options
-![First Challenge screenshots]( "Screenshot of first challenge")
+![First Challenge screenshots](assets/images/first-challenge.png "Screenshot of first challenge")
 
 ### Second Challenge
 
 Second Challenge Options
-![First Challenge screenshots]( "Screenshot of first challenge")
+![First Challenge screenshots](assets/images/second-challenge.png "Screenshot of first challenge")
 
 ### Third Challenge
 
 Third Challenge Options
-![First Challenge screenshots]( "Screenshot of first challenge")
+![First Challenge screenshots](assets/images/third-challenge.png "Screenshot of first challenge")
 
 ### Fourth Challenge
 
 Fourth Challenge Options
-![First Challenge screenshots]( "Screenshot of first challenge")
+![First Challenge screenshots](assets/images/fourth-challenge.png "Screenshot of first challenge")
 
 ### Fifth Challenge
 
 Fifth Challenge Options
-![First Challenge screenshots]( "Screenshot of first challenge")
+![First Challenge screenshots](assets/images/fifth-challenge.png "Screenshot of first challenge")
 
 ### End Game
 
-![End Game screenshots]( "Screenshot of end game")
+![End Game screenshots](assets/images/end-game-yes-option.png "Screenshot of end game")
 
 ### Win Game
 
-![Win Game screenshots]( "Screenshot of win game")
+![Win Game screenshots](assets/images/win-game-yes-option.png "Screenshot of win game")
+
+### Error handling
+
+![Error Handling Intro screenshots](assets/images/error-handling-name.png "Screenshot of error in intro")
+
+![Error Handling game screenshots](assets/images/error-handling.png "Screenshot of error in game")
 
 # Testing
 
