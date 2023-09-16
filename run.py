@@ -1,6 +1,10 @@
 # Imports
+"""
+Contains ASCII images used in the application - these were taken from
+various websites, more information found in readme.
+"""
 import images
-# Contains ASCII images used in the application - these were taken from various websites, more information found in readme.
+
 
 # Username
 username = ""

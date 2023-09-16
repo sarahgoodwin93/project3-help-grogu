@@ -1,3 +1,11 @@
+"""
+All images were taken from various websites,
+More info can be found in the readme
+The below code was learnt from Stack Overflow,
+More info can be found in the readme
+"""
+
+
 logo_img = (r"""
               .               .    .          .              .   .         .
                _________________      ____         __________
@@ -21,6 +29,7 @@ logo_img = (r"""
 
 """)
 
+
 welcome_message = (r"""
 .   .   .   .   A long time ago in a galaxy far, far away….        .     .
 .       . .   A group of Mandalorians were attacked by a small             .
@@ -31,6 +40,7 @@ welcome_message = (r"""
 .     back from the evil Galactic Empire, and get Grogu back to safety.   .
 .         . .           .        .                     .        .            .
 """)
+
 
 grogu = (r"""
 ⠀⢀⣠⣄⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⡾⠿⠿⠿⠿⢷⣶⣦⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
